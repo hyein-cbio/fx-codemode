@@ -1,0 +1,20 @@
+{
+  "name": "fx-codemode",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "@opencode/codemode": "2.4.2",
+    "acorn": "8.15.0",
+    "effect": "4.1.0",
+    "zod": "^4.0.0"
+  }
+}
